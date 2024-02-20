@@ -28,41 +28,115 @@ a{
     padding-left: 70px;
 }
 .nav-item{
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
 }
 .navbar-brand img{
-    height: 26px;
+    height: 18px;
 }
 .navbar{
-    padding-left: 100px;
+    padding-left: 150px;
 }
 a.navbar-brand .col-6 img{
     margin:0;
 }
 .navbar-nav{
     text-align: right;
-    padding-right: 15px;
+    padding-right: 70px;
 }
 .nav-link:hover{
     color: var(--maincolor);
 }
 /* Menu Part End*/
 /* -------------------------------------------------------------------------------------------------- */
-.Hero_img{
-    width: 100%;
-    height: 620px;
-}
-.hero_img img{
-    width: 100%;
-    height: 620px;
 
-}
+
 
 /* Hero part */
 
-
+.Hero_part{
+    background: url(/assets/img/hero_img.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 490px;
+}
+.hero_text h1{
+    color: var(--maincolor);
+    text-align: center;
+    padding-top: 180px;
+    padding-bottom: 10px;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 7px;
+    font-weight: 900;
+}
+.hero_text a{
+    margin-left: 577px;
+    border-radius: 28px;
+    font-family: 'Poppins', sans-serif;;
+    color: var(--maincolor);
+    background-color: transparent;
+    font-size: 12px;
+    padding: 10px 20px;
+    border: solid #ffffff 1px;
+}
 
 /* Hero part End*/
+/* -------------------------------------------------------------------------------------------------- */
+
+
+/* About Part */
+.about_area{
+    margin-top: 90px;
+    margin-bottom: 20px;
+}
+.about_con{
+    margin-right: 100px;
+}
+.about_con h1{
+    margin-bottom: -10px;
+}
+.about_con p{
+    font-size: 13px;
+}
+.about_img{
+    margin-left: 100px;
+}
+.about_con a{
+    border-radius: 28px;
+    font-family: 'Poppins', sans-serif;;
+    color: #ffffff;
+    background-color: #0DAC88;
+    font-size: 12px;
+    padding: 10px 20px;
+    border: solid #ffffff 1px;
+}
+/* About Part End */
+/* -------------------------------------------------------------------------------------------------- */
+
+/* Service Part */
+.Service h1{
+    font-size: 40px;
+    text-align: center;  
+    margin-bottom: 50px;
+}
+.service_item{
+    display: flex;
+}
+.Service_img{
+    padding: 0px 40px;
+}
+.Service_img img{
+    height: 50px;
+}
+.Service_img h3{
+    font-size: 16px;
+}
+.Service_img p{
+    font-size: 13px;
+}
+
+/* Service Part End */
 /* -------------------------------------------------------------------------------------------------- */
